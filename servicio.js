@@ -11,7 +11,7 @@ let parametrosPeticion ={
 
 fetch(uri,parametrosPeticion)
 .then(function(respuesta){
-    return (respuesta.json())
+    return eso(respuesta.json())
     })
 .then(function(respuesta){
     console.log(respuesta)
